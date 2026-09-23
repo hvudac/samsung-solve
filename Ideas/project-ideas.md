@@ -43,9 +43,10 @@ The grades are our judgement, not measurements. Re-grade after each test.
 
 ### S1. Hedgehog-safe robot mowers
 
-- **Problem.** Hedgehogs are active at night and roll up instead of fleeing, and robot
-  mowers increasingly run at night. Wallonia banned robot mowers between 18:00 and 9:00
-  in 2025 to protect them; the Netherlands has no such rule (NOS, 10 April 2026).
+- **Problem.** Hedgehogs are active at night and mostly freeze instead of fleeing, and
+  robot mowers increasingly run at night. Wallonia adopted a ban on robot mowers between
+  18:00 and 9:00 on 9 April 2026 to protect them; the Netherlands has no such rule (NOS,
+  10 April 2026). Corrected 23 September 2026, see `deep-dive-mechanical-options-2026-09-23.md`.
   Stichting Egelopvang Midden-Nederland took in about 900 hedgehogs in 2025 and reports
   cut wounds on the back and head (same article). How many of those are mower injuries is
   **not established**: a Danish researcher noted wounds can also come from other garden

@@ -7,8 +7,9 @@
 - **Not registered yet.** Registration closes 1 October 2026 (from
   `Resources/competition-brief-2026-09-23.md`).
 - Fourteen ideas drafted in `Ideas/project-ideas.md` (round 2 added 23 September), none
-  tested, none chosen. Shortlist re-ranked for a mechanical engineering team: X1 rubber-infill
-  catcher, S6 as a pellet separator, S1 as a mechanical hedgehog guard; sport option P3. The team has not discussed them yet.
+  tested, none chosen. After the 23 September deep dive the order is S1 mechanical hedgehog
+  guard, X1 rubber-infill catcher (weak spot: shoes are about 2.5% of infill loss), P3
+  wheelchair tennis, S6 pellet separator (crowded). The team has not discussed them yet.
 
 ## Contacts
 

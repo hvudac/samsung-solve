@@ -22,6 +22,7 @@ Editorial Rules.
 | :---- | :---- |
 | `Resources/competition-brief-2026-09-23.md` | Anything about dates, eligibility, themes, deliverables, prizes. Read dates out of this file, never from memory, and say you did |
 | `Ideas/project-ideas.md` | Choosing, comparing, testing or changing the project idea |
+| `Ideas/deep-dive-mechanical-options-2026-09-23.md` | Working on S1, X1, P3 or S6 in depth: evidence, what exists, what would be new, test and kill criteria, stakeholders, sources |
 
 *Add a row whenever a new reference file lands in `Resources/`. Organiser material
 (registration form, deliverable briefs, judging criteria) is saved there verbatim with
