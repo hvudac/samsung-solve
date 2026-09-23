@@ -6,9 +6,9 @@
 
 - **Not registered yet.** Registration closes 1 October 2026 (from
   `Resources/competition-brief-2026-09-23.md`).
-- Six ideas drafted in `Ideas/project-ideas.md`, none tested, none chosen. Suggested lead:
-  S1 hedgehog-safe robot mowers, backup P1 whistle-to-wrist. The team has not discussed
-  them yet.
+- Fourteen ideas drafted in `Ideas/project-ideas.md` (round 2 added 23 September), none
+  tested, none chosen. Suggested shortlist to test before kick-off: S1 hedgehog-safe mowers,
+  X1 rubber-infill catcher, P1 whistle-to-wrist. The team has not discussed them yet.
 
 ## Contacts
 

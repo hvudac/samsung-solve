@@ -28,6 +28,14 @@ So each idea is judged on five things:
 | P1 | Referee whistle to wrist for deaf players | Sport (inclusion) | Strong | High | Low | One evening |
 | P2 | Heading counter for youth football | Sport (safety) | Medium | Medium | Medium | One training |
 | P3 | Solo training partner for wheelchair tennis | Sport (access) | Strong | Low | Medium | Two hours of calls |
+| S4 | Bird-strike sensor for glass buildings | Sustainability (nature, animals) | Medium | High | Low | One week of walks |
+| S5 | Fibre scanner for textile sorting | Sustainability (circular) | Medium | Medium | Medium | One evening |
+| S6 | Beach pellet counter | Sustainability (plastic) | Medium | High | Low to medium | One beach visit |
+| S7 | Repair-or-recycle test bench for Repair Cafes | Sustainability (circular, e-waste) | Medium | Medium | Low | One Repair Cafe visit |
+| P4 | Next-hold guidance for blind climbers | Sport (access) | Strong | Medium | Medium (research exists) | One climbing session |
+| P5 | Wheel sensor for wheelchair team sport | Sport (access, fun) | Medium | High | Medium | One training |
+| P6 | Borrow-a-kit locker at sports parks | Sport (access) | Medium | Medium | Medium | Two hours of calls |
+| X1 | Rubber-infill catcher for artificial pitches | Both: sport + plastic | Strong | High | Low | One training |
 
 The grades are our judgement, not measurements. Re-grade after each test.
 
@@ -131,7 +139,144 @@ The grades are our judgement, not measurements. Re-grade after each test.
 - **Risks.** Ball machines already exist, so the "adapted" part has to be real. The most
   mechanical build of the six, and the hardest to finish in eleven weeks.
 
-## Recommendation
+## Round 2 (added 23 September 2026)
+
+Eight more, same format. Nothing here is tested either.
+
+### Sustainability & Tech
+
+#### S4. Bird-strike sensor for glass buildings
+
+- **Problem.** Vogelbescherming estimates that hundreds of thousands of birds die against
+  windows in the Netherlands every year, mostly migrating birds against tall, reflective
+  office glass (Vogelbescherming; the page gives no study behind the number). Nobody knows
+  *which* panes of a given building kill the most, so bird-safe film goes on everything or
+  nothing.
+- **Idea.** A cheap vibration and sound sensor stuck to a window that recognises the thump of
+  a bird strike, logs it with time and pane, and builds a map of the worst windows so the
+  owner only treats those.
+- **Why now.** Autumn migration is happening right now, so we can collect real data before
+  deliverable 1.
+- **Cheapest test (one week).** Walk the perimeter of two glass buildings on the TU Delft
+  campus every morning for a week and count dead or stunned birds per facade. Zero birds
+  means the problem is too rare there to demo; a cluster means we have a site.
+- **Risks.** Telling a bird from a ball, hail or a door slam. Needs building-owner permission
+  to mount sensors.
+
+#### S5. Fibre scanner for textile sorting
+
+- **Problem.** Clothes can only be recycled fibre-to-fibre if you know what they are made of,
+  and labels are missing or wrong. Industrial near-infrared sorters exist (for example
+  Fibersort), but second-hand shops and collection points sort by hand. The labelling
+  problem is an **assumption** to confirm with one sorting centre.
+- **Idea.** A handheld scanner with a low-cost spectral sensor that says "cotton",
+  "polyester" or "blend" and tells the volunteer which bin.
+- **Cheapest test (one evening).** Scan ten garments with known labels using a hobby spectral
+  sensor board (around €70) and see whether cotton and polyester separate at all.
+- **Risks.** Cheap sensors stop around 940 nm, while textile identification usually needs
+  longer infrared wavelengths. This test could kill the idea in one evening, which is
+  exactly why it is worth running.
+
+#### S6. Beach pellet counter
+
+- **Problem.** Plastic pre-production pellets ("nurdles") wash up on beaches, and counts by
+  volunteers (such as the Great Nurdle Hunt) are slow and hard to compare.
+- **Idea.** A standard sieve tray plus a phone app: sieve a fixed patch of sand, take one
+  photo, and the app counts pellets and logs them with GPS. Scheveningen is a tram ride away.
+- **Cheapest test (one beach visit).** Sieve one square metre of the tide line, photograph
+  the tray, count by hand, then check whether simple blob detection gets close.
+- **Risks.** Shells and sand grains look like pellets. Whether anyone would use the data
+  is **unknown**: one email to a beach-cleanup group answers it.
+
+#### S7. Repair-or-recycle test bench for Repair Cafes
+
+- **Problem.** Repair Cafe started in Amsterdam, and volunteers spend much of a session just
+  finding out what is wrong before they can decide to repair or recycle. That diagnosis is
+  the bottleneck: an **assumption** to confirm with volunteers.
+- **Idea.** A small test bench (USB-C power analyser, battery health test, a guided checklist
+  on a tablet) that gives a first diagnosis for phones, headphones and small appliances in
+  minutes.
+- **Why us.** Hoang's day job is diagnosing devices at a counter, so we know which checks
+  answer most cases fastest.
+- **Cheapest test (one visit).** Sit in on one Repair Cafe session, time how long diagnosis
+  takes per item, and ask which checks would save the most time.
+- **Risks.** Mains-powered appliances bring safety rules. Too broad unless we pick one device
+  category.
+
+### Sport & Tech
+
+#### P4. Next-hold guidance for blind climbers
+
+- **Problem.** Blind and low-vision climbers depend on a sighted guide calling out each hold,
+  so they cannot train alone.
+- **Idea.** A camera at the foot of the wall tracks the climber's hands and feet and the
+  holds of the route, and gives the next hold by spatial audio or a haptic band.
+- **Cheapest test (one session).** Film one of us on a bouldering wall with a phone and run
+  an off-the-shelf pose estimator. Are hands, feet and holds tracked well enough to say
+  "left hand, up and right"?
+- **Risks.** This is an active research topic: Climb-o-Vision (CHI 2022), a 2025 paper on
+  sound-assisted bouldering, and open-source projects such as HoldLight. No product yet, but
+  a juror may know the research, so we need a clear reason ours is different (cheap, one
+  phone, works in any gym).
+
+#### P5. Wheel sensor for wheelchair team sport
+
+- **Problem.** Wheelchair basketball and rugby players get little of the performance data
+  that running players take for granted: sprints, pushes, distance, fatigue. An
+  **assumption** to confirm with one club.
+- **Idea.** A small motion sensor on each wheel plus a phone dashboard for the coach,
+  cheap enough for amateur clubs.
+- **Cheapest test (one training).** Tape a phone to a wheel of a borrowed sports wheelchair
+  and check whether the data shows pushes and turns clearly.
+- **Risks.** Research systems and some commercial wheel sensors exist, not checked yet. We
+  need access to a club.
+
+#### P6. Borrow-a-kit locker at sports parks
+
+- **Problem.** Kit (boots, rackets, helmets) is a cost barrier for kids who want to try a
+  sport, and outgrown kit sits unused at home. Funds such as Jeugdfonds Sport & Cultuur
+  exist to help with costs, so part of this is already addressed.
+- **Idea.** A smart locker at a sports park where families borrow and return kit through an
+  app, with sizes and availability shown live. Also circular, so it touches both themes.
+- **Cheapest test (two hours).** Call two sports clubs and the local sports-coach
+  organisation: is kit really a barrier, and do lending schemes already exist nearby?
+- **Risks.** The hard part is logistics and trust, not technology. Weakest engineering story
+  of the round.
+
+### Both themes
+
+#### X1. Rubber-infill catcher for artificial pitches
+
+- **Problem.** Many artificial pitches use rubber granules as infill, and granules leave the
+  pitch on shoes, clothes and in drains as microplastic. The EU banned selling this infill
+  for synthetic pitches from 17 October 2031, with existing stock still allowed after that
+  (EU Microplastics Regulation, EOC EU Office guide). So pitches will be in use for years yet.
+- **Idea.** An exit station at the pitch gate that brushes and air-blows boots and catches
+  the granules, with a sensor that weighs what it catches so the club can show how much it
+  keeps out of the environment.
+- **Why it stands out.** One project, both themes, and a measurable result (grams saved per
+  training) that is easy to put on a slide.
+- **Cheapest test (one training).** Brush the boots of ten players after a training session
+  on a rubber-infill pitch and weigh what comes off. That gives the grams-per-player number
+  the whole pitch rests on.
+- **Risks.** Simple boot brushes at pitch exits may already exist, so the claim has to be
+  the measurement, not the brush. Needs a club willing to host it.
+
+## Recommendation (updated 23 September 2026)
+
+Round 2 adds one serious contender: **X1, the rubber-infill catcher**. It covers both
+themes, can be tested in one training, and gives a number the jury can check.
+
+Test these three before kick-off and choose on results:
+
+1. **S1** hedgehog-safe mowers (one evening + 30-minute prior-art check)
+2. **X1** rubber-infill catcher (boots of ten players after one training)
+3. **P1** whistle to wrist (one evening + one message to a deaf sports club)
+
+If a test fails, the idea is dropped. S4 is the backup to watch, because migration season
+means its test only works in the next few weeks.
+
+## Recommendation (round 1)
 
 **Lead with S1, hedgehog-safe robot mowers, with P1 as the backup**, provided the
 30-minute check does not show that mower makers already solved it. Reasons: animal
@@ -160,3 +305,8 @@ testing.
 - [VRT NWS: Wallonie verbiedt robotmaaiers tussen 18 uur en 9 uur](https://www.vrt.be/vrtnws/nl/2025/07/03/wallonie-robotmaaiers-egels/)
 - [Egelwerkgroep: onderzoek naar robotmaaiers en egels](https://www.egelwerkgroep.com/post/nieuw-onderzoek-naar-robotmaaiers-en-egels)
 - [iFixit on Galaxy Upcycling](https://www.ifixit.com/News/50450/samsung-galaxy-upcycling-unlocked-smartphone-smarthome-project)
+- [Vogelbescherming: voorkom dat vogels zich doodvliegen](https://www.vogelbescherming.nl/actueel/bericht/voorkom-dat-vogels-zich-doodvliegen)
+- [EOC EU Office: microplastics regulation and sport](https://www.euoffice.eurolympic.org/monthly-report-highlight-explanatory-guide-to-the-microplastics-regulation-updates-for-the-sport-sector/)
+- [Climb-o-Vision, CHI 2022](https://dl.acm.org/doi/10.1145/3491101.3519680)
+- [Sound-assisted climbing, 2025](https://doi.org/10.1145/3749385.3749402)
+- [HoldLight on GitHub](https://github.com/Yuuu-05/HoldLight)
