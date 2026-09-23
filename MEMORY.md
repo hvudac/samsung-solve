@@ -1,6 +1,6 @@
 # Samsung Solve Memory
 
-*Last updated: 23 September 2026 (workstation created).*
+*Last updated: 23 September 2026 (S1 worked out into a plan).*
 
 ## Status
 
@@ -10,6 +10,11 @@
   tested, none chosen. After the 23 September deep dive the order is S1 mechanical hedgehog
   guard, X1 rubber-infill catcher (weak spot: shoes are about 2.5% of infill loss), P3
   wheelchair tennis, S6 pellet separator (crowded). The team has not discussed them yet.
+- 23 September (Hoang asked): S1 worked out into requirements, four concept directions, a
+  test method and an 11-week plan with three gates in `Ideas/s1-hedgehog-guard-plan.md`.
+  Still the lead idea, not a team decision. Gate 1 (go or no-go) is Sunday 11 October.
+- Soapbox lists "Spots: 100" and an online kick-off (checked 23 September), so we register
+  this week rather than on 1 October.
 
 ## Contacts
 
@@ -35,7 +40,8 @@
 - What the registration form asks for, whether an idea is needed at registration.
 - Judging criteria and the content of each deliverable.
 - Confirm all three of us are 16 to 25 on the competition's reference date.
-- Kick-off time on 14 October: Hoang has another commitment that evening.
+- Kick-off on 14 October is online (Soapbox, checked 23 September); the time is still
+  unknown. Hoang has another commitment that evening, so a teammate may need to join.
 
 ## Experiment log
 

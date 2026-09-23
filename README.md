@@ -8,9 +8,12 @@ Claude.
 ## Start here
 
 1. `Resources/competition-brief-2026-09-23.md`: the rules, themes and every date.
-2. `Ideas/project-ideas.md`: six project ideas, each with the cheapest test that would
+2. `Ideas/project-ideas.md`: fourteen project ideas, each with the cheapest test that would
    tell us if it is worth building, and a recommendation.
-3. `MEMORY.md`: where we are, what we decided and why, and what is still open. Add your
+3. `Ideas/s1-hedgehog-guard-plan.md`: the lead idea worked out, with the step-by-step plan
+   to the final. `Ideas/s1-hedgehog-guard-plan.pdf` is a printable snapshot of it (23 September)
+   with a day-by-day timeline; if the two differ, the Markdown file wins.
+4. `MEMORY.md`: where we are, what we decided and why, and what is still open. Add your
    name and strengths under Contacts.
 
 ## Working together

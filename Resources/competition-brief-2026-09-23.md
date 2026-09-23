@@ -15,6 +15,8 @@ save it verbatim next to this file with its date and update this brief.
 - Students aged **16 to 25** (Newsroom and Soapbox).
 - Benelux: Belgium, the Netherlands, Luxembourg.
 - Teams of **2 to 5** people, assembled by the students themselves. We are 3.
+- Soapbox lists "Spots: 100" (checked 23 September 2026), so registration may fill up
+  before 1 October.
 - **Open:** whether teammates must be at the same school, any education-level limit, the language of the deliverables (Dutch, English or either).
 
 ## Themes
@@ -37,6 +39,8 @@ save it verbatim next to this file with its date and update this brief.
 | 9 December 2026 | Wed | Final pitch |
 
 - **Open:** the June Newsroom article gave 14 October as the registration deadline. The Samsung NL page and Soapbox now both say 1 October, with 14 October as kick-off. Treat **1 October** as binding.
+- The kick-off is online: Soapbox says "Online Kick-Off: October 14th" (checked 23 September
+  2026).
 - **Open:** what each deliverable must contain, the time of the kick-off, where the final is held.
 - The competition is phased: "the best teams progress to the next round" (Newsroom). **Open:** after which deliverable teams are cut.
 

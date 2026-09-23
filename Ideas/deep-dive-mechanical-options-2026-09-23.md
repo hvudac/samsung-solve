@@ -60,8 +60,9 @@ interviews we have not done.
   for 2026, and Segway Navimow claims 95% hedgehog avoidance in its own tests, with an
   "Animal Friendly Mode" that also defaults to daytime mowing (company and trade sources).
 - **A test standard is forming.** Aalborg and Oxford proposed a standard test: a small dummy
-  (under 400 g, 7 cm high) and a large one (over 600 g, at least 10 cm high), 20 runs from
-  each of three angles on a coconut mat, mower starting 3 m away (*Animals* 2024; Oxford,
+  (under 400 g, 7 cm high) and a large one (over 600 g, at least 10 cm high), 20 runs with
+  the dummy in each of three positions (snout at 12, 2 to 3 and 9 to 10 o'clock; corrected
+  23 September 2026) on a coconut mat, mower starting 3 m away (*Animals* 2024; Oxford,
   January 2024). In Germany, IZW and the crash-test firm CTS built heated dummies and are
   working towards a DIN standard (number **unverified**).
 - **One retrofit failed.** A German aftermarket perforated guard for the Husqvarna 450X
@@ -90,7 +91,8 @@ quick patent check found nothing specific, but a proper Espacenet search is stil
 3. Run the stock mower: how often does the small dummy pass underneath or get marked?
 4. Measure the force needed to trigger the shell sensor, and the force a 180 g dummy on
    grass resists before sliding.
-5. Fit a cardboard or PETG skirt and repeat three angles, 20 runs each. Check docking.
+5. Fit a cardboard or PETG skirt and repeat the three dummy positions, 20 runs each. Check
+   docking.
 
 **Kill result:** the small dummy is still run over, it gets pushed ahead without triggering
 a stop, the skirt snags or false-triggers on grass, or docking fails.
