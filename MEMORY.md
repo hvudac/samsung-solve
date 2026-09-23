@@ -7,12 +7,13 @@
 - **Not registered yet.** Registration closes 1 October 2026 (from
   `Resources/competition-brief-2026-09-23.md`).
 - Fourteen ideas drafted in `Ideas/project-ideas.md` (round 2 added 23 September), none
-  tested, none chosen. Suggested shortlist to test before kick-off: S1 hedgehog-safe mowers,
-  X1 rubber-infill catcher, P1 whistle-to-wrist. The team has not discussed them yet.
+  tested, none chosen. Shortlist re-ranked for a mechanical engineering team: X1 rubber-infill
+  catcher, S6 as a pellet separator, S1 as a mechanical hedgehog guard; sport option P3. The team has not discussed them yet.
 
 ## Contacts
 
 - **Hoang Vu Dac**: team member, studies at TU Delft, robotics background.
+- **Team**: all three are mechanical engineering students (Hoang, 23 September 2026).
 - **Teammate 2**: name, study and strengths to fill in.
 - **Teammate 3**: name, study and strengths to fill in.
 - **Organiser**: Samsung Electronics Benelux, run through Soapbox (registration platform)

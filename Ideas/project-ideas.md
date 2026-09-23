@@ -262,7 +262,27 @@ Eight more, same format. Nothing here is tested either.
 - **Risks.** Simple boot brushes at pitch exits may already exist, so the claim has to be
   the measurement, not the brush. Needs a club willing to host it.
 
-## Recommendation (updated 23 September 2026)
+## Recommendation for a team of three mechanical engineers (23 September 2026)
+
+The team is three mechanical engineering students. That shifts the ranking towards ideas
+whose hard part is a mechanism, a flow or a structure that we design, build and measure,
+and away from ideas whose hard part is software, machine learning or an app.
+
+| Rank | Idea | The mechanical-engineering core |
+| :---- | :---- | :---- |
+| 1 | **X1 rubber-infill catcher** | Brushes, airflow, separating granules from grass and dirt (a small cyclone or sieve), a load cell to weigh the catch. Measurable in grams |
+| 2 | **S6 reframed: beach pellet separator** | Instead of an app that counts pellets, a portable device that pulls them out of the sand. Plastic pellets float in water and sand sinks, so it is a density-separation and sieve design problem |
+| 3 | **S1 reframed: mechanical hedgehog guard** | Instead of camera detection, a low-force front skirt or bumper that pushes a hedgehog-sized object aside or stops the blades before they reach it. Force, geometry and blade-guard design |
+| Sport option | **P3 solo training partner for wheelchair tennis** | Ball-launching mechanism, aim and spin control. The most mechanical sport idea, but the biggest build |
+
+Dropped for this team: P1, P4, P5, S4, S5 and S7 (mostly electronics, software or
+machine learning), and P6 (mostly logistics).
+
+Keep the electronics to an Arduino-class board and off-the-shelf sensors, and spend the
+design effort where the jury can see it: the mechanism, the test rig and the measured
+result.
+
+## Recommendation (round 2)
 
 Round 2 adds one serious contender: **X1, the rubber-infill catcher**. It covers both
 themes, can be tested in one training, and gives a number the jury can check.
